@@ -8,10 +8,10 @@ package com.mycompany.tallerdisenio;
  *
  * @author joeybustamante
  */
-import java.util.List;
+import java.util.ArrayList;
 
 public class Estudiante extends PersonalAcademico {
-    private List<Curso> cursosInscritos;
+    private ArrayList<Curso> cursosInscritos;
 
     public void solicitarInscripcionCurso(Curso curso) { }
 
