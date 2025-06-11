@@ -21,7 +21,7 @@ public class Curso {
     private ArrayList<Foro> foros;
 
     // Getters y setters
-    public void setResponsable(Profesor responsable) {
+    /*public void setResponsable(Profesor responsable) {
         this.responsable = responsable;
-    }
+    }*/
 }
