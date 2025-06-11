@@ -8,16 +8,17 @@ package com.mycompany.tallerdisenio;
  *
  * @author joeybustamante
  */
-import java.util.List;
+import java.util.ArrayList;
 
 public class Curso {
     private String id;
     private String nombre;
     private boolean estadoDisponible;
     private Profesor responsable;
-    private List<Estudiante> estudiantes;
-    private List<ActividadSumativa> actividades;
-    private List<Foro> foros;
+    private ArrayList<Estudiante> estudiantesEnEspera;
+    private ArrayList<Estudiante> estudiantesInscritos;
+    private ArrayList<ActividadSumativa> actividades;
+    private ArrayList<Foro> foros;
 
     // Getters y setters
     public void setResponsable(Profesor responsable) {

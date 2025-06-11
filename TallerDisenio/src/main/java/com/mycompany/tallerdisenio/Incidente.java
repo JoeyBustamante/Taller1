@@ -12,13 +12,15 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 public class Incidente {
-    private int id;
-    private LocalDateTime fechaReportado;
-    private String estado;
-    private String titulo;
-    private String descripcion;
-    private List<String> logActualizaciones;
-    private LocalDateTime fechaCerrado;
-    private String tipo;
+    protected int id;
+    protected LocalDateTime fechaReportado;
+    protected String estado;
+    protected String titulo;
+    protected String descripcion;
+    protected List<String> logActualizaciones;
+    protected LocalDateTime fechaCerrado;
+    protected String tipo;
+    protected Usuario responsable;
+    protected PersonalAcademico beneficiario;
 }
 

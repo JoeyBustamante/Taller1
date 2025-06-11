@@ -4,11 +4,16 @@
  */
 package com.mycompany.tallerdisenio;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author joeybustamante
  */
 public class Profesor extends Usuario {
+
+    protected ArrayList<Curso> cursos;
+    
     public void cargarActividadSumativa(Curso curso, ActividadSumativa actividad) { }
 
     public void calificarActividadSumativa(Curso curso, Estudiante estudiante, ActividadSumativa actividad) { }

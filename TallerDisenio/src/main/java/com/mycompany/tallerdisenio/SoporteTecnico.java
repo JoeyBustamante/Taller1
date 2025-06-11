@@ -8,7 +8,7 @@ package com.mycompany.tallerdisenio;
  *
  * @author joeybustamante
  */
-public class SoporteTecnico {
+public class SoporteTecnico extends Usuario {
     public void brindarAsistencia(Usuario usuario) { }
 
     public void resolverProblemaTecnico(Usuario usuario) { }

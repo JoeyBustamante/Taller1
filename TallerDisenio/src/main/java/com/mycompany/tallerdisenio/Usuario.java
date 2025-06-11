@@ -4,6 +4,8 @@
  */
 package com.mycompany.tallerdisenio;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author joeybustamante
@@ -13,13 +15,14 @@ public class Usuario {
     protected String contraseña;
     protected String nombre;
     protected String apellido;
+    protected ArrayList<Incidente> incidentes;
 
-    public boolean login() {
+    protected boolean login() {
         // lógica de login
         return true;
     }
 
-    public boolean logout() {
+    protected boolean logOut() {
         // lógica de logout
         return true;
     }

@@ -22,7 +22,7 @@ public class Administrador extends Usuario {
     }
 
     public void asignarResponsable(Curso curso, Profesor responsable) {
-        curso.setResponsable(responsable);
+        //curso.setResponsable(responsable);
     }
 }
 
